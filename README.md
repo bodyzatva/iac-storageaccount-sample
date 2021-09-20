@@ -12,13 +12,16 @@ Requirements:
 Run the sample
 
   Authentication (To run this sample, you need to autenticate in azure, ref: https://docs.microsoft.com/pt-pt/cli/azure/authenticate-azure-cli)
+
     Step 1 - Run command: az login (on the folder)
     Step 2 - Authenticate in portal (you will be redirected to browser login)
   
   Prepare files
+
     Step 3 - Edit terraform.tfvars variable: Change the subscripton id to your own.
  
   Provisioning the infraestructure:
+  
     Step 4 - Run Command: Terraform init
     Step 5 - Run Command: Terraform plan
     Step 6 - Run Command: Terraform apply
