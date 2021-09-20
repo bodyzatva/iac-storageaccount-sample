@@ -5,10 +5,6 @@
 *.tfstate
 *.tfstate.*
 
-#ignore visual studio code workspace files
-
-workspace.*
-
 # Crash log files
 crash.log
 
